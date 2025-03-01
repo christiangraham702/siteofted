@@ -10,10 +10,9 @@ export default function AboutPage() {
           <CardContent className="p-6">
             <h2 className="mb-4 text-2xl font-semibold">Personal Background</h2>
             <p className="text-muted-foreground">
-              As a Mathematics major at the University of Florida, I&apos;ve developed a deep appreciation for
-              problem-solving and analytical thinking. My academic journey has been complemented by my passion for
-              blockchain technology and artificial intelligence, leading me to explore the intersection of mathematics,
-              technology, and innovation.
+            I’m a student at UF who loves coding and thinks AI is borderline magic. Numbers and math have been my thing for as long as I can remember, and I spend an unreasonable amount of time spiraling into thoughts about the future—sometimes about technology, sometimes about whether we’re all living in a simulation.
+
+At some point, I accidentally became obsessed with blockchain and decentralization, and now I can’t stop thinking about how to build a future where middlemen go extinct, systems are trustless, and people actually own their data.
             </p>
           </CardContent>
         </Card>
@@ -22,9 +21,7 @@ export default function AboutPage() {
           <CardContent className="p-6">
             <h2 className="mb-4 text-2xl font-semibold">Vision & Goals</h2>
             <p className="text-muted-foreground">
-              My mission is clear: Building and investing in projects that push humanity forward. I believe in the power
-              of decentralization and artificial intelligence to create meaningful change in how we live, work, and
-              interact.
+            My mission? Simple. Build cool things, make people's lives better, and leave a legacy that's not just another failed startup. I firmly believe in the power of decentralization, AI, and hope to use them to make the coolest future possible. If it doesn’t push humanity forward, I’m probably not interested—unless it involves golf, I like golf.
             </p>
           </CardContent>
         </Card>
@@ -33,10 +30,10 @@ export default function AboutPage() {
           <CardContent className="p-6">
             <h2 className="mb-4 text-2xl font-semibold">Fun Facts</h2>
             <ul className="list-inside list-disc space-y-2 text-muted-foreground">
-              <li>Avid reader of science fiction and philosophy</li>
-              <li>Currently learning quantum computing fundamentals</li>
-              <li>Passionate about exploring the convergence of AI and blockchain technology</li>
-              <li>Enjoy conceptualizing and world-building for fantasy anime scenarios</li>
+              <li>Big golf guy, disc golf and golf-golf.</li>
+              <li>Big crypto guy, rough times right now.</li>
+              <li>Optimistic about the future.</li>
+              <li>Not a big central bank guy.</li>
             </ul>
           </CardContent>
         </Card>

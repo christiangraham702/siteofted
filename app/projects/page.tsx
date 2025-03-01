@@ -15,49 +15,42 @@ const projects = [
     title: "CourseLynx",
     description: "Leading operations and growth strategy as COO, driving user acquisition and platform development.",
     icon: <Rocket className="h-6 w-6" />,
-    tech: ["React", "Node.js", "PostgreSQL"],
+    tech: ["Leadership", "10k+ Users", "Operations"],
     details:
-      "As COO of CourseLynx, I've been instrumental in developing growth strategies and optimizing operations. Our platform continues to expand its user base while maintaining high engagement metrics.",
+      "As COO of CourseLynx, I've been instrumental in developing growth strategies (acquired 10k+ users) and optimizing operations. Our platform continues to expand its user base while maintaining high engagement metrics. More info coming soon",
   },
   {
-    title: "Jarvis (Smart Home AI)",
+    title: "Dumb Jarvis",
     description: "AI-powered home assistant integrating automation and computer vision.",
     icon: <Home className="h-6 w-6" />,
     tech: ["Python", "TensorFlow", "OpenCV"],
     details:
-      "Jarvis combines cutting-edge AI with practical home automation, featuring computer vision for security and smart device integration for seamless control.",
+      "Set up two cameras in my room to track productivity, automate lights, and more. More info coming soon",
   },
   {
-    title: "Blockchain Research",
-    description: "Exploring decentralized systems and their applications in modern technology.",
+    title: "UFO Sightings Interactive Map",
+    description: "Created using esri.js and a dataset from kaggle. Analyzed UFO sightings in the United States.",
     icon: <Database className="h-6 w-6" />,
-    tech: ["Solidity", "Web3.js", "Ethereum"],
+    tech: ["Esri.js", "JavaScript", "Spatial Analysis"],
     details:
-      "Research focused on blockchain scalability solutions and practical applications in decentralized finance and governance.",
+      "Created an interactive map using esri.js and a dataset from kaggle. Analyzed UFO sightings in the United States. More info coming soon",
   },
   {
-    title: "LangGraph & LangSmith",
+    title: "Agentic Minions",
     description: "Experiments in AI workflow orchestration and language model optimization.",
     icon: <Brain className="h-6 w-6" />,
     tech: ["Python", "LangChain", "OpenAI"],
     details:
-      "Developing sophisticated AI workflows using LangGraph and LangSmith, focusing on practical applications and performance optimization.",
+      "Developing sophisticated AI workflows using LangGraph and LangSmith, focusing on practical applications and performance optimization. More info coming soon",
   },
   {
     title: "GIS Analysis",
     description: "Coastal and intercoastal research using geographic information systems.",
     icon: <LineChart className="h-6 w-6" />,
     tech: ["Google Earth Engine", "Python", "GIS"],
-    details: "Analyzing coastal patterns and changes using advanced GIS tools and Earth Engine capabilities.",
+    details: "Analyzing coastal patterns and changes using advanced GIS tools and Earth Engine capabilities. More info coming soon",
   },
-  {
-    title: "Fantasy Anime Concepts",
-    description: "Creative world-building and concept development for anime scenarios.",
-    icon: <Palette className="h-6 w-6" />,
-    tech: ["Worldbuilding", "Storytelling", "Design"],
-    details:
-      "Developing unique fantasy worlds and narratives, combining traditional storytelling with modern anime aesthetics.",
-  },
+
 ]
 
 export default function ProjectsPage() {
