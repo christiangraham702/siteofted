@@ -1,19 +1,25 @@
-import type React from "react"
-import "@/styles/globals.css"
-import { GeistSans } from "geist/font/sans"
 import type { Metadata } from "next"
+import { Inter } from "next/font/google"
+import "./globals.css"
+import { ThemeProvider } from "./context/theme-context"
+
+const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "Christian Graham - Innovator & Builder",
-  description:
-    "Mathematics major, startup COO, and blockchain enthusiast exploring decentralization, AI, and impactful projects.",
-    generator: 'v0.dev'
+  title: "Christian Graham",
+  description: "Personal website of Christian Graham",
 }
 
-export default function RootLayout({ children }: { children: React.ReactNode }) {
+export default function RootLayout({
+  children,
+}: Readonly<{
+  children: React.ReactNode
+}>) {
   return (
     <html lang="en">
-      <body className={GeistSans.className}>{children}</body>
+      <body className={inter.className}>
+        <ThemeProvider>{children}</ThemeProvider>
+      </body>
     </html>
   )
 }
