@@ -58,7 +58,7 @@ const projects = [
     title: "Blockchain Voting System",
     description: "Developed a decentralized application for secure, transparent voting on the solana blockchain. Uses smart contracts to ensure vote integrity and prevents double-voting.",
     icon: <Database className="h-6 w-6" />,
-    tech: ["Solidity", "Solana", "Web3.js", "Smart Contracts"],
+    tech: ["Anchor", "Solana", "Web3.js", "Smart Contracts"],
     links: {
       demo: "https://blogofted.com/soon"
     }

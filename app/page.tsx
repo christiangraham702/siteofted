@@ -242,7 +242,7 @@ export default function Home() {
               <CardContent className="space-y-4">
                 <div>
                   <h3 className={`font-medium ${themeColors.foreground}`}>University of Florida</h3>
-                  <p className={`text-sm ${themeColors.muted}`}>Mathematics, Minor in Innovation</p>
+                  <p className={`text-sm ${themeColors.muted}`}>Geography, Minor in Innovation</p>
                   <p className={`text-sm ${themeColors.muted}`}>2020 - 2025</p>
                 </div>
                 <div>
